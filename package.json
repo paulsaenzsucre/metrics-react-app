@@ -18,13 +18,15 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1"
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5"
   },
   "devDependencies": {
     "@babel/core": "7.x",
     "@babel/eslint-parser": "7.x",
     "@babel/plugin-syntax-jsx": "7.x",
     "@babel/preset-react": "7.x",
+    "@redux-devtools/core": "^3.13.1",
     "@testing-library/react": "^13.4.0",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
