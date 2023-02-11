@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lato:wght@300&display=swap');
+
+:root {
+  --primary-color: #4369b2;
+  --lighter-color: #5586e3;
+  --darker-color: #405e99;
+  --enfasis-color: white;
+  --title-bars-color: #35548b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.cabin-400 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+}
+
+.cabin-700 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700;
+}
+
+.lato-300 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}

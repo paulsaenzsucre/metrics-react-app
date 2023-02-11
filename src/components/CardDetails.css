@@ -1,0 +1,20 @@
+.card-details-cont {
+  background: var(--lighter-color);
+}
+
+.detail-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--lighter-color);
+  height: 3rem;
+  padding: 0.6rem;
+}
+
+.detail-cont:nth-child(even) {
+  background: var(--darker-color);
+}
+
+.detail-item {
+  color: var(--enfasis-color);
+}

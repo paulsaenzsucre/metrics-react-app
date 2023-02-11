@@ -1,0 +1,61 @@
+.card-list-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.card-cont:nth-child(4n+2),
+.card-cont:nth-child(4n+3) {
+  background: var(--darker-color);
+}
+
+.filter-text {
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+@media (min-width: 36rem) {
+  .card-list-cont {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card-cont:nth-child(4n+2),
+  .card-cont:nth-child(4n+3) {
+    background: var(--primary-color);
+  }
+
+  .card-cont:nth-child(6n+2),
+  .card-cont:nth-child(6n+4),
+  .card-cont:nth-child(6n+6) {
+    background: var(--darker-color);
+  }
+}
+
+@media (min-width: 48rem) {
+  .card-list-cont {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .card-cont:nth-child(4n+2),
+  .card-cont:nth-child(4n+3) {
+    background: var(--primary-color);
+  }
+
+  .card-cont:nth-child(6n+2),
+  .card-cont:nth-child(6n+4),
+  .card-cont:nth-child(6n+6) {
+    background: var(--primary-color);
+  }
+
+  .card-cont:nth-child(8n+2),
+  .card-cont:nth-child(8n+4),
+  .card-cont:nth-child(8n+5),
+  .card-cont:nth-child(8n+7) {
+    background: var(--darker-color);
+  }
+}

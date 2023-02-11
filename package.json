@@ -1,0 +1,50 @@
+{
+  "name": "metrics-react-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "yarn eslint . && yarn stylelint \"**/*.{css,scss}\"",
+    "fix-eslint": "yarn eslint . --fix"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.x",
+    "@babel/eslint-parser": "7.x",
+    "@babel/plugin-syntax-jsx": "7.x",
+    "@babel/preset-react": "7.x",
+    "@redux-devtools/core": "^3.13.1",
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "7.x",
+    "eslint-config-airbnb": "18.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "4.x",
+    "jsdom": "^21.1.0",
+    "msw": "^1.0.1",
+    "stylelint": "13.x",
+    "stylelint-config-standard": "21.x",
+    "stylelint-csstree-validator": "1.x",
+    "stylelint-scss": "3.x",
+    "vite": "^4.1.0",
+    "vitest": "^0.28.4"
+  }
+}
