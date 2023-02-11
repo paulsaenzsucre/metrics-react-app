@@ -1,3 +1,7 @@
+.card-details-cont {
+  background: var(--lighter-color);
+}
+
 .detail-cont {
   display: flex;
   justify-content: space-between;

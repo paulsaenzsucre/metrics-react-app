@@ -1,6 +1,9 @@
 .app-cont {
   max-width: 50rem;
   margin: 0 auto;
+  height: 100vh;
+  background: var(--darker-color);
+  overflow: scroll;
 }
 
 .bar-title {
