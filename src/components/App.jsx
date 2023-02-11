@@ -1,11 +1,16 @@
-import logo from '../assets/logo.svg';
+import { Route, Routes } from 'react-router-dom';
+import DetailsPage from '../pages/DetailsPage';
+import HomePage from '../pages/HomePage';
+import './App.css';
+import Header from './Header';
 
 const App = () => (
-  <div className="App">
-    <div className="wrapper">
-      <h1>Metrics React App</h1>
-      <img src={logo} alt="Logo" width={200} height={200} />
-    </div>
+  <div className="app-cont">
+    <Header />
+    <Routes>
+      <Route index element={<HomePage />} />
+      <Route path="/:countryId" element={<DetailsPage />} />
+    </Routes>
   </div>
 );
 
