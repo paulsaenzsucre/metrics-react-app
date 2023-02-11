@@ -191,6 +191,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+- This work, "METRIC REACT APP", is a web page implementation of ["Ballhead App"](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio), used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 - Hat tip to anyone whose code was used.
 - Thanks for all the curated content that was provided to us.
 - Thanks to my learning and coding partners for all their support.
