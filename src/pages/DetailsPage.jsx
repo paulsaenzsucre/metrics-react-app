@@ -8,7 +8,7 @@ const DetailsPage = () => {
   const { countryId } = useParams();
 
   const country = useSelector((state) => selectCountryById(state, countryId));
-  console.log(countryId, country);
+
   return (
     <div>
       <MapCard
