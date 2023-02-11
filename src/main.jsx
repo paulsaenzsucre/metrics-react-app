@@ -3,9 +3,11 @@ import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom/client';
 import { HashRouter } from 'react-router-dom';
 import App from './components/App';
-import store from './redux/configureStore';
+import setupStore from './redux/configureStore';
 import { apiSlice } from './redux/apis/apiSlice';
 import './main.css';
+
+const store = setupStore({});
 
 store.dispatch(apiSlice.endpoints.getCountries.initiate());
 

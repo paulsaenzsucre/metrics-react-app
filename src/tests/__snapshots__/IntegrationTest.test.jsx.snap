@@ -84,7 +84,7 @@ exports[`Test App component > Should render App 1`] = `
             <img
               alt="Logo"
               class="big-card-img"
-              src="/src/assets/world.svg"
+              src="/metrics-react-app/src/assets/world.svg"
             />
             <div
               class="card-info"
@@ -204,7 +204,7 @@ exports[`Test App component > Should render App 1`] = `
           <img
             alt="Logo"
             class="big-card-img"
-            src="/src/assets/world.svg"
+            src="/metrics-react-app/src/assets/world.svg"
           />
           <div
             class="card-info"
@@ -510,7 +510,7 @@ exports[`Test HomePage component > Should match HomePage snapshot 1`] = `
           <img
             alt="Logo"
             class="big-card-img"
-            src="/src/assets/world.svg"
+            src="/metrics-react-app/src/assets/world.svg"
           />
           <div
             class="card-info"
@@ -557,7 +557,7 @@ exports[`Test HomePage component > Should match HomePage snapshot 1`] = `
         <img
           alt="Logo"
           class="big-card-img"
-          src="/src/assets/world.svg"
+          src="/metrics-react-app/src/assets/world.svg"
         />
         <div
           class="card-info"

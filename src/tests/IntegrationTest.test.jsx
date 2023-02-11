@@ -1,10 +1,8 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import {
   test,
   expect,
   afterEach,
   describe,
-  vi,
 } from 'vitest';
 import {
   cleanup,
@@ -12,13 +10,15 @@ import {
   screen,
 } from '@testing-library/react';
 import { Provider } from 'react-redux';
-import { BrowserRouter, useParams } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import HomePage from '../pages/HomePage';
 import Header from '../components/Header';
 import App from '../components/App';
-import store from '../redux/configureStore';
+import setupStore from '../redux/configureStore';
 
 afterEach(cleanup);
+
+const store = setupStore({});
 
 describe('Test App component', () => {
   test('Should render App', () => {
