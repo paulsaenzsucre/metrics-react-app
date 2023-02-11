@@ -1,0 +1,27 @@
+.header-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--darker-color);
+  height: 2.5rem;
+  padding: 0.2rem;
+}
+
+.header-item {
+  margin: auto 0;
+}
+
+.page-title {
+  font-size: 1rem;
+  color: var(--enfasis-color);
+  margin: auto;
+  line-height: 1rem;
+}
+
+.nav-button {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
