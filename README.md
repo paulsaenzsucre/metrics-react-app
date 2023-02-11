@@ -65,6 +65,10 @@ Click in the following link to see a working live version of this project:
 
 - [Metrics React App](https://elafildecolor.github.io/metrics-react-app)
 
+Click in the following link to see a video presentation of the features:
+
+- [Presentation](https://www.loom.com/share/90fe5cbdbdd648468621fda42e96f1ab)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
