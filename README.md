@@ -63,7 +63,7 @@ We implement the following features:
 
 Click in the following link to see a working live version of this project:
 
-- [Metrics React App](https://elafildecolor.github.io/metrics-react-app)
+- [Metrics React App](https://paulsaenzsucre.dev/metrics-react-app/)
 
 Click in the following link to see a video presentation of the features:
 
