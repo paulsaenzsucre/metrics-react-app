@@ -1,0 +1,650 @@
+// Vitest Snapshot v1
+
+exports[`Test App component > Should render App 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="app-cont"
+      >
+        <div
+          class="header-cont"
+        >
+          <div
+            class="header-item"
+          >
+            <nav>
+              <a
+                aria-current="page"
+                class="active"
+                href="/"
+              >
+                <button
+                  aria-label="Login"
+                  class="nav-button"
+                  type="button"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1rem"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    version="1.1"
+                    viewBox="0 0 17 17"
+                    width="1rem"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g />
+                    <path
+                      d="M5.207 8.471l7.146 7.147-0.707 0.707-7.853-7.854 7.854-7.853 0.707 0.707-7.147 7.146z"
+                    />
+                  </svg>
+                </button>
+              </a>
+            </nav>
+          </div>
+          <div
+            class="header-item"
+          >
+            <p
+              class="cabin-700 page-title"
+            >
+              COUNTRIES POPULATION
+            </p>
+          </div>
+          <div
+            class="header-item"
+          >
+            <button
+              aria-label="Login"
+              class="nav-button"
+              type="button"
+            >
+              <svg
+                fill="currentColor"
+                height="1rem"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div>
+          <div
+            class="flex big-card-cont"
+          >
+            <img
+              alt="Logo"
+              class="big-card-img"
+              src="/metrics-react-app/src/assets/world.svg"
+            />
+            <div
+              class="card-info"
+            >
+              <p
+                class="cabin-700 card-title"
+              >
+                WORLD (WORLD)
+              </p>
+              <p
+                class="lato-300 card-stats"
+              >
+                0 persons
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <input
+                class="cabin-400 filter-text"
+                name="filter"
+                placeholder="Add filter..."
+                type="text"
+                value=""
+              />
+              <h2
+                class="cabin-400 bar-title"
+              >
+                STATS BY COUNTRY
+              </h2>
+            </div>
+            <div
+              class="card-list-cont"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="app-cont"
+    >
+      <div
+        class="header-cont"
+      >
+        <div
+          class="header-item"
+        >
+          <nav>
+            <a
+              aria-current="page"
+              class="active"
+              href="/"
+            >
+              <button
+                aria-label="Login"
+                class="nav-button"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1rem"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  version="1.1"
+                  viewBox="0 0 17 17"
+                  width="1rem"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g />
+                  <path
+                    d="M5.207 8.471l7.146 7.147-0.707 0.707-7.853-7.854 7.854-7.853 0.707 0.707-7.147 7.146z"
+                  />
+                </svg>
+              </button>
+            </a>
+          </nav>
+        </div>
+        <div
+          class="header-item"
+        >
+          <p
+            class="cabin-700 page-title"
+          >
+            COUNTRIES POPULATION
+          </p>
+        </div>
+        <div
+          class="header-item"
+        >
+          <button
+            aria-label="Login"
+            class="nav-button"
+            type="button"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div>
+        <div
+          class="flex big-card-cont"
+        >
+          <img
+            alt="Logo"
+            class="big-card-img"
+            src="/metrics-react-app/src/assets/world.svg"
+          />
+          <div
+            class="card-info"
+          >
+            <p
+              class="cabin-700 card-title"
+            >
+              WORLD (WORLD)
+            </p>
+            <p
+              class="lato-300 card-stats"
+            >
+              0 persons
+            </p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <input
+              class="cabin-400 filter-text"
+              name="filter"
+              placeholder="Add filter..."
+              type="text"
+              value=""
+            />
+            <h2
+              class="cabin-400 bar-title"
+            >
+              STATS BY COUNTRY
+            </h2>
+          </div>
+          <div
+            class="card-list-cont"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test Header component > Should match Header snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="header-cont"
+      >
+        <div
+          class="header-item"
+        >
+          <nav>
+            <a
+              aria-current="page"
+              class="active"
+              href="/"
+            >
+              <button
+                aria-label="Login"
+                class="nav-button"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1rem"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  version="1.1"
+                  viewBox="0 0 17 17"
+                  width="1rem"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g />
+                  <path
+                    d="M5.207 8.471l7.146 7.147-0.707 0.707-7.853-7.854 7.854-7.853 0.707 0.707-7.147 7.146z"
+                  />
+                </svg>
+              </button>
+            </a>
+          </nav>
+        </div>
+        <div
+          class="header-item"
+        >
+          <p
+            class="cabin-700 page-title"
+          >
+            COUNTRIES POPULATION
+          </p>
+        </div>
+        <div
+          class="header-item"
+        >
+          <button
+            aria-label="Login"
+            class="nav-button"
+            type="button"
+          >
+            <svg
+              fill="currentColor"
+              height="1rem"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1rem"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="header-cont"
+    >
+      <div
+        class="header-item"
+      >
+        <nav>
+          <a
+            aria-current="page"
+            class="active"
+            href="/"
+          >
+            <button
+              aria-label="Login"
+              class="nav-button"
+              type="button"
+            >
+              <svg
+                fill="currentColor"
+                height="1rem"
+                stroke="currentColor"
+                stroke-width="0"
+                version="1.1"
+                viewBox="0 0 17 17"
+                width="1rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g />
+                <path
+                  d="M5.207 8.471l7.146 7.147-0.707 0.707-7.853-7.854 7.854-7.853 0.707 0.707-7.147 7.146z"
+                />
+              </svg>
+            </button>
+          </a>
+        </nav>
+      </div>
+      <div
+        class="header-item"
+      >
+        <p
+          class="cabin-700 page-title"
+        >
+          COUNTRIES POPULATION
+        </p>
+      </div>
+      <div
+        class="header-item"
+      >
+        <button
+          aria-label="Login"
+          class="nav-button"
+          type="button"
+        >
+          <svg
+            fill="currentColor"
+            height="1rem"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Test HomePage component > Should match HomePage snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="flex big-card-cont"
+        >
+          <img
+            alt="Logo"
+            class="big-card-img"
+            src="/metrics-react-app/src/assets/world.svg"
+          />
+          <div
+            class="card-info"
+          >
+            <p
+              class="cabin-700 card-title"
+            >
+              WORLD (WORLD)
+            </p>
+            <p
+              class="lato-300 card-stats"
+            >
+              0 persons
+            </p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <input
+              class="cabin-400 filter-text"
+              name="filter"
+              placeholder="Add filter..."
+              type="text"
+              value=""
+            />
+            <h2
+              class="cabin-400 bar-title"
+            >
+              STATS BY COUNTRY
+            </h2>
+          </div>
+          <div
+            class="card-list-cont"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="flex big-card-cont"
+      >
+        <img
+          alt="Logo"
+          class="big-card-img"
+          src="/metrics-react-app/src/assets/world.svg"
+        />
+        <div
+          class="card-info"
+        >
+          <p
+            class="cabin-700 card-title"
+          >
+            WORLD (WORLD)
+          </p>
+          <p
+            class="lato-300 card-stats"
+          >
+            0 persons
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <input
+            class="cabin-400 filter-text"
+            name="filter"
+            placeholder="Add filter..."
+            type="text"
+            value=""
+          />
+          <h2
+            class="cabin-400 bar-title"
+          >
+            STATS BY COUNTRY
+          </h2>
+        </div>
+        <div
+          class="card-list-cont"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
